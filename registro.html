@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registrokdramas</title>
+    <link rel="stylesheet" href="styler.css">
+</head>
+<body>
+    <form action="php/registro.php" method="post">
+
+        <h2>Hola</h2>
+        <p>Inicia tu registro en ChinguDramas</p>
+        <p>¡¿Ya tienes una cuenta? <a href="login.html">Inicia sesión aquí</a></p>
+        <div class="input-wrapper">
+            <input type="text" name="nombre_user" placeholder="Nombre de Usuario" required>
+            <img class="input-icon" src="imagenes/usuario.jpg" alt="" width="64" height="64" >
+        </div>
+
+        <div class="input-wrapper">
+            <input type="email" name="email" placeholder="Email">
+            <img class="input-icon" src="imagenes/correo.jpeg" alt="" width="64" height="64">
+        </div>
+
+        <div class="input-wrapper">
+            <input type="text" name="pais" placeholder="Pais">
+            <img class="input-icon" src="imagenes/ubicacion.jpeg" alt="" width="64" height="64">
+        </div>
+
+        <div class="input-wrapper">
+            <input type="password" name="contrasena_user" placeholder="Contraseña" required>
+            <img class="input-icon" src="imagenes/contraseña.jpg" alt="" width="64" height="64">
+        </div>
+
+        <button class="btn" type="submit" name="register">Registrar</button> 
+    </form>
+</body>
+</html>
