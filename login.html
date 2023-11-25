@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylel.css">
+    <title>Inicio de Sesión</title>
+</head>
+<body>
+    <form action="php/login.php" method="post">
+
+        <h2>INICIA SESION</h2>
+        <p>en ChinguDramas</p>
+        <p>¿No tienes cuenta?<a href="registro.html">Registrate aqui</a></p>
+        <div class="input-wrapper">
+        <p><input type="text"placeholder="nombre de usuario" name="nombre_user"></p>
+        <img class="input-icon" src="imagenes/usuario.jpg" alt="" width="64" height="64" >
+        </div>
+        
+        <div class="input-wrapper">
+        <p><input type="password"placeholder="ingrese su contraseña" name="contrasena_user"></p>
+        <img class="input-icon" src="imagenes/contraseña.jpg" alt="" width="64" height="64">
+        </div>
+        <button class="btnn" type="submit" name="login"> Iniciar Sesión </button> 
+        
+    </form>
+   
+</body>
+</html>
