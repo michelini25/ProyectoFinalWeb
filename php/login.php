@@ -13,6 +13,7 @@ $resultado = mysqli_query($conexion,$sql);
 $numero_registros = mysqli_num_rows($resultado);
     if($numero_registros != 0){
         //Inicio de sesion exitoso
+        
         echo "Inicio de sesión exitoso. Bienvenido, ". $usuario . "!";
     }else{
         //Credenciales invalidas
