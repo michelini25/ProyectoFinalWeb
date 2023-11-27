@@ -1,5 +1,6 @@
 <?php
-
+session_start();
+$_SESSION['User'] = $_REQUEST['nombre_user'];
 require 'conexion.php';
 
 if(isset($_POST['login'])){
@@ -13,8 +14,7 @@ $resultado = mysqli_query($conexion,$sql);
 $numero_registros = mysqli_num_rows($resultado);
     if($numero_registros != 0){
         //Inicio de sesion exitoso
-        
-        echo "Inicio de sesión exitoso. Bienvenido, ". $usuario . "!";
+        header("Location: home.php");
     }else{
         //Credenciales invalidas
         echo "Credenciales invalidas. Por favor, verifica tu nombre de usuario y/o contrseña."."</br>";

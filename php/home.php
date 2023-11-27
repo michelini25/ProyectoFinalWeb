@@ -1,3 +1,8 @@
+<?php
+session_start();
+echo '<link href="../styleh.css" type="text/css" rel="stylesheet">';
+echo '<link href="../imagenes/favicon.png" type="image/x-icon" rel="shortcut icon">';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,7 +27,7 @@
 
         <div class="header-content container"> 
             <div class="header-txt">
-                <h1>Conoce a los mejores <span>k-dramas</span> <br> favoritos aqui</h1>
+                <h1>Hola Bienvenid@! <span> <?php echo $_SESSION['User'];?></span> </h1>
                 <p>
                     Bienvenido a este tu espacio para conocer sobre K-dramas,
                     En esta pagina encontrarás las reseñas de tus dramas favoritos
@@ -41,10 +46,10 @@
         <h2>K-Dramas populares</h2>
 
         <div class="popular-content">
-            <img src="imagenes/Kingtheland.jpg" alt=""  >
-            <img src="imagenes/EstamosM.jpg" alt="" >
-            <img src="imagenes/StrongWoman.jpg" alt="" >
-            <img src="imagenes/TrueBeauty.jpg" alt="" >
+            <img src="../imagenes/Kingtheland.jpg" alt=""  >
+            <img src="../imagenes/EstamosM.jpg" alt="" >
+            <img src="../imagenes/StrongWoman.jpg" alt="" >
+            <img src="../imagenes/TrueBeauty.jpg" alt="" >
         </div>
     </section>
 </body>
