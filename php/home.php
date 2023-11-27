@@ -46,7 +46,7 @@ echo '<link href="../imagenes/favicon.png" type="image/x-icon" rel="shortcut ico
         <h2>K-Dramas populares</h2>
 
         <div class="popular-content">
-            <img src="../imagenes/Kingtheland.jpg" alt=""  >
+            <a href="../kdramas/kingtheland.html"><img src="../imagenes/Kingtheland.jpg" alt="" ></a>
             <img src="../imagenes/EstamosM.jpg" alt="" >
             <img src="../imagenes/StrongWoman.jpg" alt="" >
             <img src="../imagenes/TrueBeauty.jpg" alt="" >
