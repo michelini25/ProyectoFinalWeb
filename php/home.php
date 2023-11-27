@@ -29,10 +29,10 @@ echo '<link href="../imagenes/favicon.png" type="image/x-icon" rel="shortcut ico
             <div class="header-txt">
                 <h1>Hola Bienvenid@! <span> <?php echo $_SESSION['User'];?></span> </h1>
                 <p>
-                    Bienvenido a este tu espacio para conocer sobre K-dramas,
-                    En esta pagina encontrarás las reseñas de tus dramas favoritos
-                    y podrás conocer mas sobre su contenido. Inicia sesión para 
-                    comenzar a explorar este maravilloso mundo. 
+                    Sientete libre de explorar los k-dramas que más te agraden
+                    Dentro de cada poster encontrarás la informacion sobre los
+                    capitulos, los actores, la trama y los links directos para 
+                    que puedas disfrutar de su contenido.  
                 </p>
                 <div class="butons">
                     <a href=""></a>
